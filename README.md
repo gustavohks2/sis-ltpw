@@ -1,1 +1,1 @@
-# sis-ltpw
+# Sistema Escolar da Disciplina de LTPW
