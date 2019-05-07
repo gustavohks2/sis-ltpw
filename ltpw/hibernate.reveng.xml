@@ -41,5 +41,15 @@ Contributor(s):
 -->
 <hibernate-reverse-engineering>
   <schema-selection match-catalog="projecao"/>
-  <table-filter match-name="teste"/>
+  <table-filter match-name="aluno_turma"/>
+  <table-filter match-name="curso"/>
+  <table-filter match-name="departamento"/>
+  <table-filter match-name="disciplina"/>
+  <table-filter match-name="turma"/>
+  <table-filter match-name="aluno"/>
+  <table-filter match-name="pessoa_endereco"/>
+  <table-filter match-name="pessoa"/>
+  <table-filter match-name="professor"/>
+  <table-filter match-name="endereco"/>
+  <table-filter match-name="genero"/>
 </hibernate-reverse-engineering>
