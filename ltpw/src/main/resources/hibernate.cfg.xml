@@ -40,25 +40,25 @@ made subject to such option by the copyright holder.
 Contributor(s):
 -->
 <hibernate-configuration>
-  <session-factory>
-    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-    <property name="hibernate.connection.url">jdbc:mysql://192.168.56.103:3306/projecao</property>
-    <property name="hibernate.connection.username">root</property>
-    <property name="hibernate.connection.password">12345678</property>
-    <property name="hibernate.show_sql">true</property>
-    <property name="hibernate.current_session_context_class">thread</property>
-    <property name="hibernate.query.factory_class">org.hibernate.hql.internal.classic.ClassicQueryTranslatorFactory</property>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://127.0.1:3306/projecao</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password"></property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.query.factory_class">org.hibernate.hql.internal.classic.ClassicQueryTranslatorFactory</property>
     
-  <mapping class="br.projecao.ltpw.model.Pessoa"/>
-    <mapping class="br.projecao.ltpw.model.Curso"/>
-    <mapping class="br.projecao.ltpw.model.Disciplina"/>
-    <mapping class="br.projecao.ltpw.model.Genero"/>
-    <mapping class="br.projecao.ltpw.model.Turma"/>
-    <mapping class="br.projecao.ltpw.model.Professor"/>
-    <mapping class="br.projecao.ltpw.model.Endereco"/>
-    <mapping class="br.projecao.ltpw.model.Aluno"/>
-    <mapping class="br.projecao.ltpw.model.Departamento"/>
+        <mapping class="br.projecao.ltpw.model.Pessoa"/>
+        <mapping class="br.projecao.ltpw.model.Curso"/>
+        <mapping class="br.projecao.ltpw.model.Disciplina"/>
+        <mapping class="br.projecao.ltpw.model.Genero"/>
+        <mapping class="br.projecao.ltpw.model.Turma"/>
+        <mapping class="br.projecao.ltpw.model.Professor"/>
+        <mapping class="br.projecao.ltpw.model.Endereco"/>
+        <mapping class="br.projecao.ltpw.model.Aluno"/>
+        <mapping class="br.projecao.ltpw.model.Departamento"/>
 
-  </session-factory>
+    </session-factory>
 </hibernate-configuration>
